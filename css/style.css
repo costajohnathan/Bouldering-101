@@ -56,17 +56,19 @@ body {
 
 /* --- Hero Section --- */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/hero-home.jpg') no-repeat center center/cover;
-    height: 80vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    /* color: white; */
 }
-.hero-content h1 { font-family: var(--font-heading); font-size: 3rem; margin-bottom: 0.5rem; }
+.hero-content h1 { font-family: var(--font-heading); font-size: 3rem; margin-bottom: 0.5rem; color: var(--primary-color); }
 .hero-content p { font-size: 1.2rem; margin-bottom: 1.5rem; }
 
+.about-hero {
+    height: 85vh;
+}
 /* --- Utility --- */
 .section-padding { padding: 4rem 2rem; }
 .bg-light { background-color: var(--light-color); }
@@ -79,3 +81,120 @@ body {
     text-align: center;
 }
 .feature-item .feature-icon { width: 50px; margin-bottom: 1rem; }
+
+
+/* --- Home Carousel --- */
+.pic-ctn {
+    width: 100vw;
+    height: 200px;
+}
+
+@keyframes display {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    20% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    30% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+}
+
+.pic-ctn {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 15vh;
+}
+
+.pic-ctn > img {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 100px);
+    opacity: 0;
+    animation: display 10s infinite;
+}
+
+img:nth-child(2) {
+    animation-delay: 2s;
+}
+img:nth-child(3) {
+    animation-delay: 4s;
+}
+
+
+/* --- About Page Specific Layout --- */
+
+.about-layout {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 2rem; 
+    align-items: flex-start; 
+}
+
+.about-image-column {
+    flex: 1 1 30%; 
+    min-width: 280px; 
+}
+
+.about-pic {
+    width: 100%;
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.about-text-column {
+    flex: 2 1 65%; 
+    min-width: 300px; 
+}
+
+.about-text-column h2 {
+    font-family: var(--font-heading);
+    color: var(--primary-color); 
+}
+
+
+/* --- Blog Page Specific Styles --- */
+.blog-post {
+    background-color: #fff; 
+    padding: 2rem;
+    margin-bottom: 2rem; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08); 
+    max-width: 800px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.blog-post-title {
+    font-family: var(--font-heading);
+    font-size: 2rem; 
+    color: var(--primary-color); 
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.blog-post-image {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
