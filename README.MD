@@ -31,21 +31,20 @@ This project took into account 3 Personas of Brisbane Locals, which can be found
 ```
 ├── LICENSE
 ├── README.MD
-├── crags.html
+├── about.html
+├── blog.html
+├── competitions.html
 ├── css
 │   └── style.css
 ├── files
 │   ├── DECO1400 A2.pdf
 │   └── personas.md
-├── grades.html
-├── gyms.html
 ├── images
 │   ├── icon-facebook.svg
 │   ├── icon-instagram.svg
 │   └── logo.svg
 ├── index.html
-├── js
-└── styles.html
+└── js
 ```
 
 ## 5. Live Demo
