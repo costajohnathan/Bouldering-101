@@ -31,21 +31,20 @@ This project took into account 3 Personas of Brisbane Locals, which can be found
 ```
 ├── LICENSE
 ├── README.MD
-├── crags.html
+├── about.html
+├── blog.html
+├── competitions.html
 ├── css
 │   └── style.css
 ├── files
 │   ├── DECO1400 A2.pdf
 │   └── personas.md
-├── grades.html
-├── gyms.html
 ├── images
 │   ├── icon-facebook.svg
 │   ├── icon-instagram.svg
 │   └── logo.svg
 ├── index.html
-├── js
-└── styles.html
+└── js
 ```
 
 ## 5. Live Demo
@@ -59,7 +58,10 @@ A Live demo is being hosted on GitHub Pages in the link bellow.
 - Vectors - [Svgrepo](https://www.svgrepo.com/vectors)
 - Prototypes - [Excalidraw](https://excalidraw.com/)
 - Design Inspirations - [Awwwards](https://www.awwwards.com/)
+- Website Design 101: Essential Terms - [Medium](https://medium.com/tylerdi/website-design-101-essential-terms-64bc4a52847f)
 - Poster templates - [University of Texas Templates](https://undergradcollege.utexas.edu/academics/undergraduate-research/guide-creating-research-posters/poster-design-templates)
+- Poster generation - [Miro](https://miro.com/)
+
 
 ### B. References
 - Personas template (partial work) - ChatGPT
