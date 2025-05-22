@@ -55,9 +55,10 @@ A Live demo is being hosted on GitHub Pages in the link bellow.
 
 ## Apendix
 ### A. Resources
-- Vectors - [Svgrepo](https://www.svgrepo.com/vectors)
 - Icons - [Flaticon](https://www.flaticon.com/)
+- Vectors - [Svgrepo](https://www.svgrepo.com/vectors)
 - Prototypes - [Excalidraw](https://excalidraw.com/)
+- Design Inspirations - [Awwwards](https://www.awwwards.com/)
 - Poster templates - [University of Texas Templates](https://undergradcollege.utexas.edu/academics/undergraduate-research/guide-creating-research-posters/poster-design-templates)
 
 ### B. References
