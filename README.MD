@@ -51,15 +51,14 @@ This project took into account 3 Personas of Brisbane Locals, which can be found
 ## 5. Live Demo
 A Live demo is being hosted on GitHub Pages in the link bellow.
 
-`https://costajohnathan.github.io/Bouldering-101/index.html`
+[costajohnathan.github.io/Bouldering-101](https://costajohnathan.github.io/Bouldering-101/index.html)
 
 ## Apendix
 ### A. Resources
-
-- Vectors - https://www.svgrepo.com/vectors
-- Icons - https://www.flaticon.com/
-- Prototypes - https://excalidraw.com/
-- Poster templates - https://undergradcollege.utexas.edu/academics/undergraduate-research/guide-creating-research-posters/poster-design-templates
+- Vectors - [Svgrepo](https://www.svgrepo.com/vectors)
+- Icons - [Flaticon](https://www.flaticon.com/)
+- Prototypes - [Excalidraw](https://excalidraw.com/)
+- Poster templates - [University of Texas Templates](https://undergradcollege.utexas.edu/academics/undergraduate-research/guide-creating-research-posters/poster-design-templates)
 
 ### B. References
 - Personas template (partial work) - ChatGPT
