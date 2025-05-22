@@ -11,7 +11,9 @@ This project is a 5-page responsive website designed to educate new climbers in 
 
 The website aims to shed a light in the climbing community as well as to showcase the sport's quicks.
 
-## ?. Resources
+## Apendix
+### A. Resources
 
 - Vectors - https://www.svgrepo.com/vectors
 - Icons - https://www.flaticon.com/
+- Poster templates - https://undergradcollege.utexas.edu/academics/undergraduate-research/guide-creating-research-posters/poster-design-templates
