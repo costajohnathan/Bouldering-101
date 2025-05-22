@@ -14,15 +14,13 @@ The website aims to shed a light in the climbing community as well as to showcas
 ## 2. Site Map
 
 **Home**  
-  A dynamic landing page introducing the site’s purpose and highlighting key sections. <br>
-**Styles**  
-  An overview of bouldering movement categories and techniques with visual examples.  <br>
-**Crags**  
-  A directory of Brisbane’s outdoor bouldering spots with maps and access info. <br>
-**Gyms**  
-  Listings and profiles of local indoor facilities, with route updates and membership details. <br>
-**Grades**  
-  Interactive guide to boulder grading systems and conversions.
+  A dynamic landing page. <br>
+**About**  
+  A brief overview of the project.  <br>
+**Blog**  
+  Blog with local climbing content. <br>
+**Comptetitions**  
+  Brisbane's competition calendar.
 
 ## 3. Personas
 This project took into account 3 Personas of Brisbane Locals, which can be found in `files/personas.md`
