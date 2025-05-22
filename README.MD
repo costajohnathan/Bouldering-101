@@ -60,6 +60,8 @@ A Live demo is being hosted on GitHub Pages in the link bellow.
 - Design Inspirations - [Awwwards](https://www.awwwards.com/)
 - Website Design 101: Essential Terms - [Medium](https://medium.com/tylerdi/website-design-101-essential-terms-64bc4a52847f)
 - Poster templates - [University of Texas Templates](https://undergradcollege.utexas.edu/academics/undergraduate-research/guide-creating-research-posters/poster-design-templates)
+- Poster generation - [Miro](https://miro.com/)
+
 
 ### B. References
 - Personas template (partial work) - ChatGPT
