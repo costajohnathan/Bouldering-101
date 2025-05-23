@@ -36,12 +36,37 @@
                     </div>
                     <div class="about-text-column">
                         <h2>Our Story</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>We are Brisbane's local climbers, commited to bring inclusivity to the sport through technology</p>
+                        <p>We embrace all climbing type, be bouldering, lead, tread, and more</p>
 
                         <h2>Our Philosophy: Climb. Connect. Conquer.</h2>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>We believe growth begins with the courage to take the first step — to climb beyond comfort zones and pursue challenges with determination. Along the journey, we connect with others, fostering collaboration, empathy, and shared purpose. Together, we conquer not just goals, but limitations — transforming ambition into achievement through unity, resilience, and purpose-driven action.</p>
                     </div>
+                </div>
+            </section>
+            <!-- Contact Form Section -->
+            <section class="contact-form-section section-padding">
+                <div class="container">
+                    <h2>Contact Us</h2>
+                    <form id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <small class="error-message" id="nameError"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <small class="error-message" id="emailError"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <small class="error-message" id="messageError"></small>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                        <p class="success-message" id="successMessage"></p>
+                    </form>
                 </div>
             </section>
         </div>
