@@ -2,84 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Urban Ascend Bouldering</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>About Us – Urban Ascend Bouldering</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo"><img src="images/logo.svg" alt="Urban Ascend Bouldering"></a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="competitions.html">Competitions</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar">
+    <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="Urban Ascend Bouldering">
+    </a>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="competitions.html">Competitions</a></li>
+    </ul>
+    </nav>
     </header>
 
-    <main>
-        <div class ="about-hero">
-            <section class="page-header section-padding" class="hero-content">
-                <div class="container"> <!-- Added a container for centering and padding -->
-                    <h1>About Us</h1>
-                </div>
-            </section>
+<main>
+    <header class="page-header section-padding">
+        <h1>About Us</h1>
+    </header>
 
-            <!-- Main About Content Section -->
-            <section class="about-main-content section-padding">
-                <div class="container about-layout"> <!-- Container with a new class for layout -->
-                    <div class="about-image-column">
-                        <img src="images/pexels-about.jpg" alt="Interior of Urban Ascend Bouldering Gym showing climbers" class="about-pic">
-                    </div>
-                    <div class="about-text-column">
-                        <h2>Our Story</h2>
-                        <p>We are Brisbane's local climbers, commited to bring inclusivity to the sport through technology</p>
-                        <p>We embrace all climbing type, be bouldering, lead, tread, and more</p>
+    <section class="about-main-content section-padding">
+        <figure class="about-image-column">
+        <img src="images/pexels-about.jpg" alt="Interior of Urban Ascend Bouldering Gym" class="about-pic">
+        </figure>
+        <article class="about-text-column">
+        <h2>Our Story</h2>
+        <p>We are Brisbane's local climbers, committed to bringing inclusivity to the sport through technology.</p>
+        <p>We embrace all climbing types: bouldering, lead, trad, and more.</p>
 
-                        <h2>Our Philosophy: Climb. Connect. Conquer.</h2>
-                        <p>We believe growth begins with the courage to take the first step — to climb beyond comfort zones and pursue challenges with determination. Along the journey, we connect with others, fostering collaboration, empathy, and shared purpose. Together, we conquer not just goals, but limitations — transforming ambition into achievement through unity, resilience, and purpose-driven action.</p>
-                    </div>
-                </div>
-            </section>
-            <!-- Contact Form Section -->
-            <section class="contact-form-section section-padding">
-                <div class="container">
-                    <h2>Contact Us</h2>
-                    <form id="contactForm" novalidate>
-                        <div class="form-group">
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" required>
-                            <small class="error-message" id="nameError"></small>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" required>
-                            <small class="error-message" id="emailError"></small>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message:</label>
-                            <textarea id="message" name="message" rows="4" required></textarea>
-                            <small class="error-message" id="messageError"></small>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                        <p class="success-message" id="successMessage"></p>
-                    </form>
-                </div>
-            </section>
-        </div>
-    </main>
+        <h2>Our Philosophy: Climb. Connect. Conquer.</h2>
+        <p>Growth begins with the courage to take the first step...</p>
+        </article>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 Urban Ascend Bouldering. Brisbane, Australia.</p>
-        <div class="social-links">
-            <a href="#" aria-label="Facebook"><img src="images/icon-facebook.svg" alt="Facebook"></a>
-            <a href="#" aria-label="Instagram"><img src="images/icon-instagram.svg" alt="Instagram"></a>
-        </div>
-    </footer>
+    <section class="contact-form-section section-padding" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact Us</h2>
+        <form id="contactForm" novalidate>
+        <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <small class="error-message" id="nameError"></small>
+        </fieldset>
+        <fieldset>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <small class="error-message" id="emailError"></small>
+        </fieldset>
+        <fieldset>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <small class="error-message" id="messageError"></small>
+        </fieldset>
+        <button type="submit" class="btn">Send Message</button>
+        <p class="success-message" id="successMessage"></p>
+        </form>
+    </section>
+</main>
 
-    <script src="js/script.js"></script>
+<footer>
+    <p>&copy; 2025 Urban Ascend Bouldering. Brisbane, Australia.</p>
+    <ul class="social-links">
+        <li><a href="#" aria-label="Facebook"><img src="images/icon-facebook.svg" alt="Facebook"></a></li>
+        <li><a href="#" aria-label="Instagram"><img src="images/icon-instagram.svg" alt="Instagram"></a></li>
+    </ul>
+</footer>
+
+<button id="scrollToTopBtn" title="Go to top">⇧</button>
+<script src="js/script.js"></script>
 </body>
 </html>
