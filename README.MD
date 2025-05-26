@@ -7,9 +7,9 @@
 
 ## 1. Project Overview
 
-This project is a 5-page responsive website designed to educate new climbers in the Greater Brisbane Area. The primary goal was to create an engaging, informative, and user-friendly online presence using fundamental web technologies.
+This project is a 4-page responsive website dedicated to climbers in the Greater Brisbane Area. The primary goal was to create an engaging, informative, and user-friendly online presence using fundamental web technologies.
 
-The website aims to shed a light in the climbing community as well as to showcase the sport's quicks.
+The website aims to shed a light in the climbing community as well as to showcase the sport's in general.
 
 ## 2. Site Map
 
@@ -55,11 +55,14 @@ A Live demo is being hosted on GitHub Pages in the link bellow.
 - Icons - [Flaticon](https://www.flaticon.com/)
 - Vectors - [Svgrepo](https://www.svgrepo.com/vectors)
 - Prototypes - [Excalidraw](https://excalidraw.com/)
+- Poster generation - [InkScape](https://inkscape.org/)
 - Design Inspirations - [Awwwards](https://www.awwwards.com/)
 - Website Design 101: Essential Terms - [Medium](https://medium.com/tylerdi/website-design-101-essential-terms-64bc4a52847f)
 - Poster templates - [University of Texas Templates](https://undergradcollege.utexas.edu/academics/undergraduate-research/guide-creating-research-posters/poster-design-templates)
-- Poster generation - [Miro](https://miro.com/)
+
 
 
 ### B. References
-- Personas template (partial work) - ChatGPT
+Created with ChatGPT
+- Blog Post
+- Personas template 
