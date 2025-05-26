@@ -50,6 +50,9 @@ A Live demo is being hosted on GitHub Pages in the link bellow.
 
 [costajohnathan.github.io/Bouldering-101](https://costajohnathan.github.io/Bouldering-101/index.html)
 
+## 6. Google Console
+A Google Console tag was added to `index.html > head` to gather metrics on the website for future improvements.
+
 ## Apendix
 ### A. Resources
 - Icons - [Flaticon](https://www.flaticon.com/)
