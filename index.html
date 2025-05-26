@@ -2,44 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Urban Ascend Bouldering</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <meta name="google-site-verification" content="kmAAOTl0F8yyUA7tGqHOqzjqlc2lBHl2RwlntNN00lI" />
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo"><img src="images/logo.svg" alt="Urban Ascend Bouldering"></a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="competitions.html">Competitions</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="Urban Ascend Bouldering">
+        </a>
+        <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="competitions.html">Competitions</a></li>
+        </ul>
+    </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>CLIMB. CONNECT. CONQUER.</h1>
-                <p>Brisbane's go to climbing portal.</p>
-            </div>
-            <div class="pic-ctn">
-                <img src="images/pexels-carousel-1.jpg" alt="" class="pic">
-            </div>
-        </section>
+    <section class="hero" aria-label="Hero banner">
+        <figure class="hero-image">
+        <img src="images/pexels-carousel-1.jpg" alt="" class="pic">
+        </figure>
+        <figcaption class="hero-content">
+        <h1>CLIMB. CONNECT. CONQUER.</h1>
+        <p>Brisbane's go-to climbing portal.</p>
+        </figcaption>
+    </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Urban Ascend Bouldering. Brisbane, Australia.</p>
-        <div class="social-links">
-            <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank"><img src="images/icon-facebook.svg" alt="Facebook"></a>
-            <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank"><img src="images/icon-instagram.svg" alt="Instagram"></a>
-        </div>
+    <p>&copy; 2025 Urban Ascend Bouldering. Brisbane, Australia.</p>
+    <ul class="social-links" aria-label="Social media links">
+        <li><a href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><img src="images/icon-facebook.svg" alt="Facebook"></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><img src="images/icon-instagram.svg" alt="Instagram"></a></li>
+    </ul>
     </footer>
 
+    <button id="scrollToTopBtn" title="Go to top">⇧</button>
     <script src="js/script.js"></script>
 </body>
 </html>
